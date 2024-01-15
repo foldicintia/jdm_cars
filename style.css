@@ -156,11 +156,11 @@ section{
     border-top: 2px solid red;
 }
 .hi{
-    width: 40%;
+    width: 70vh;
     transition: 0.5s ease;
 }
 .hi:hover{
-    width: 50%;
+    width: 65vh;
     transition: 0.5s
 }
 .lentikep{
@@ -168,12 +168,13 @@ section{
     width: 100%;
 }
 .futas{
-    float: right;  /* Az elemek szélessége a fele a konténer szélességének */
-    box-sizing: border-box; /* A padding és a border ne növelje az elem szélességét */
-    padding: 10px;
-}
-.futas2{
-    float: left;
-    box-sizing: border-box; /* A padding és a border ne növelje az elem szélességét */
-    padding: 10px;
-}
+    float: left; 
+    box-sizing: border-box; 
+    padding: 10px; 
+  }
+  .j{
+    text-align: right;
+  }
+  .b{
+    text-align: left;
+  }
