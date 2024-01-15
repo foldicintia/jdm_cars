@@ -6,24 +6,27 @@ main{
     width: 90%;
     margin: auto;
     padding-bottom: 30px;
+    padding-top: 30px;
 
 }
 nav{
-    font-size: 18px;
-    border-bottom: 2px solid red;
+    font-size: 3vh;
+    border: 2px solid red;
+    border-radius: 30px;
 
 }
 nav ul li{
     padding-top: 15px;
-    
 }
+
 nav ul li a{
     color: white;
+    transition: 0.5s ease;
 }
 nav ul li a:hover{
     color: red;
-    font-size: 20px;
-    transition: 0.5s;
+    font-size: 25px;
+    transition: 0.5s ease;
 }
 
 h1{
@@ -31,25 +34,146 @@ h1{
     padding: 20px;
     color: white;
     letter-spacing: 10px;
+    text-align: center;
+}
+h2 {
+	font-size: 6vh;
+	text-align: center;
+	letter-spacing:20px;	
+    color: white;
+    padding-top: 10px;
 }
 h3{
     color: white;
+    font-size: 5vh;
+}
+h4{
+    color: white;
+    font-size: 4vh;
 }
 h5{
     color: rgb(168, 167, 167);
+    text-align: left;
+    font-size: 3vh;
 }
 p{
     text-align: justify;
     color: white;
     padding: 16px;
-    clear: both;
 }
 .jobb{
     float: right;
+    text-align: right;
 }
 .bal{
     float: left;
+    text-align: left;
+}
+.linkek a{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 5px;
+    margin: 5px;
+    transition: 0.3s ease;
+
+}
+.linkek a:hover{
+    color: red;
+    border:2px solid red;
+    border-radius: 30px;
+    font-size: 25px;
+    transition: 0.3s;
 }
 
+img.jobb {
+	padding: 10px;
+	margin-left: 10px;
+	width: 440px;
+	float: right;
+	border-radius: 20px;
+}
+img.bal {
+	padding: 10px;
+	margin-right: 10px;
+	width: 440px;
+	float: left;
+	border-radius: 20px;
+}
+.szovegek{
+    text-align: justify;
+}
+section{
+	padding-bottom: 50px;
+    padding-top: 10px;
+	line-height: 1.1em;;
+	border-bottom: 2px solid red; 
+}
+.jobb {
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+  }
+.bal{
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+  }
 
-
+.jobb:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+.bal:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+.lego{
+    border: 2px solid red;
+    border-radius: 30px;
+}
+.legokepek{
+    padding: 10px;
+    border-radius: 30px;
+    width: 25%;
+    height: 25%;
+    transition: 0.5s ease;
+}
+.legokepek:hover{
+    width: 30%;
+    transition: 0.5s;
+}
+.legokepek2{
+    padding: 10px;
+    border-radius: 30px;
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.5s ease;
+}
+.legokepek2:hover{
+    transform: scale(1.05);
+    filter: grayscale(0%);
+}
+.vonal{
+    border-top: 2px solid red;
+}
+.hi{
+    width: 40%;
+    transition: 0.5s ease;
+}
+.hi:hover{
+    width: 50%;
+    transition: 0.5s
+}
+.lentikep{
+    text-align: center;
+    width: 100%;
+}
+.futas{
+    float: right;  /* Az elemek szélessége a fele a konténer szélességének */
+    box-sizing: border-box; /* A padding és a border ne növelje az elem szélességét */
+    padding: 10px;
+}
+.futas2{
+    float: left;
+    box-sizing: border-box; /* A padding és a border ne növelje az elem szélességét */
+    padding: 10px;
+}
